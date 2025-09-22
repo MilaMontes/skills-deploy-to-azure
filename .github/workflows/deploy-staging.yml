@@ -7,9 +7,9 @@ on:
 env:
   IMAGE_REGISTRY_URL: ghcr.io
   DOCKER_IMAGE_NAME: MilaMontes-azure-ttt
-  AZURE_WEBAPP_NAME: MilaMontes-ttt-app-staging
+  AZURE_WEBAPP_NAME: milamontes-ttt-app-staging2
   AZURE_RESOURCE_GROUP: MilaMontes-ttt-rg-westus3
-  AZURE_APP_PLAN: MilaMontes-ttt-plan-westus3
+  AZURE_APP_PLAN: ASP-MilaMontes-ttt-rg-westus3-a876 
 
 jobs:
   build:
